@@ -37,5 +37,5 @@ This code is an example of building a deep learning model for predicting both ag
 
 4. These results suggest that the model is learning to predict both age and gender effectively, with decreasing MAE for age prediction and increasing accuracy for gender prediction over the training process.
 
-
-<u> **NOTE:** </u> Race feature has not been extracted due to poor annotations in the dataset.
+<br>
+<ins> **NOTE:** </ins> Race feature has not been extracted due to poor annotations in the dataset.
