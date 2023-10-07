@@ -39,3 +39,5 @@ This code is an example of building a deep learning model for predicting both ag
 
 <br><br>
 <ins> **NOTE:** </ins> Race feature has not been extracted due to poor annotations in the dataset.
+<br><br>
+[**BLOG LINK**](https://rajkulkarni.hashnode.dev/functional-api-transfer-learning)
