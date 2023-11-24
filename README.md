@@ -1,4 +1,4 @@
-# VGG16-Functional-APIs
+# Functional-APIs
 
 This code is an example of building a deep learning model for predicting both age and gender from facial images in a single neural network. It uses the VGG16 architecture as a feature extractor and employs a Functional API for creating a multi-output model.
 
