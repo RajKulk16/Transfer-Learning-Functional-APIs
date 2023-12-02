@@ -19,23 +19,27 @@ This code is an example of building a deep learning model for predicting both ag
 ## Model Building Process
 
 1. Froze the pre-trained layers to prevent them from being updated during training.
-2. Defined additional layers for age and gender prediction on top of VGG16.
+2. Defined additional layers for age and gender prediction on top of VGG16 and ResNet101.
 3. Created a multi-output model with separate outputs for age and gender and compiled it with appropriate metrics, optimizers, and loss functions.
 
 ## Key Achievements and Observations
 
 1. **Age Prediction:**
+   *ResNet101*
+   - Mean Absolute Error (MAE) on the training set gradually decreases from approximately 15.70 to 14.31 as training progresses over 10 epochs.
+   - MAE on the validation set follows a similar decreasing trend, reaching around 14.07.
+   *VGG16*
    - Mean Absolute Error (MAE) on the training set gradually decreases from approximately 9.73 to 8.14 as training progresses over 10 epochs.
    - MAE on the validation set follows a similar decreasing trend, reaching around 8.67.
 
-2. **Gender Prediction:**
+3. **Gender Prediction:**
    - Accuracy on gender prediction for the training set starts at 77.78% and increases to 83.13% after 10 epochs.
    - On the validation set, the accuracy improves from 83.36% to 87.06% during training.
 
-3. **Overall Loss:**
+4. **Overall Loss:**
    - The total loss decreases over epochs, indicating the model's learning progress.
 
-4. These results suggest that the model is learning to predict both age and gender effectively, with decreasing MAE for age prediction and increasing accuracy for gender prediction over the training process.
+5. These results suggest that the model is learning to predict both age and gender effectively, with decreasing MAE for age prediction and increasing accuracy for gender prediction over the training process.
 
 <br><br>
 <ins> **NOTE:** </ins> Race feature has not been extracted due to poor annotations in the dataset.
